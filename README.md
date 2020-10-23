@@ -1,25 +1,33 @@
+## About the Developer
+
+<h3>Yogesh Bhattarai</h3>
 <p align="center"><a href="https://www.yogesh-bhattarai.com" target="_blank"><img src="https://www.yogesh-bhattarai.com/img/home-bg-2.jpg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## Laungauge Used
 
-## About Laravel
+- Php [Laravel Framework](https://laravel.com/docs/).
+- Javascript [React.js](https://reactjs.org/).
+- HTML AND CSS.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## About The Project
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+This is the website made in laravel backend with using the react front-end. This is the self project that I wanted to do just to see how much of the skill have i acquired in the curent context. I am making the use of the Laravel and React because both of them are some of the most powerful framework and a library for the today's context of Web Development.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+
+
+## Some of the SelfProjects I have done(Github Links)
+
+- [Laravel CRUD App With Detailed Info](https://github.com/uniquemozilla22/Laravel-CRUD).
+- [Personal website for Pramit](https://github.com/uniquemozilla22/Pramit-Personal_website)
+- [Facebook Clone with Firebase on React](https://github.com/uniquemozilla22/Facebook-Clone-App)
+- [To-do List React](https://github.com/uniquemozilla22/To-Do-List-React)
+- [React.js World Data with API](https://github.com/uniquemozilla22/React-js-Covid-world-data)
+- [React.js Nepal Data with API](https://github.com/uniquemozilla22/React_Nepal_Covid_19_Tracker)
+- [JavaScript Games](https://github.com/uniquemozilla22/JavaScriptGames)
+- [To-do List Javascript](https://github.com/uniquemozilla22/To-Do-List-JS-)
+
+<h5> There were a lot of project that i did as a Begineer web developer contact me if you want to know more</h5>
+
 
 ## Learning Laravel
 
