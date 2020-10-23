@@ -10903,3 +10903,8 @@ a.text-dark:focus {
   }
 }
 
+* {
+  background-color: #222;
+  color: white;
+}
+
