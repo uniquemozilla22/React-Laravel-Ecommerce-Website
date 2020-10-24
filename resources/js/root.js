@@ -1,20 +1,20 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import './root.css'
+import Aux from './components/HOC/HOC'
+import NavBar from './components/Navbar/Navbar'
+import Body from './components/Body/Body'
+import Footer from './components/Footer/Footer'
+
 
 
 function Root() {
     return (
-        <div className="container">
-            <div className="row justify-content-center">
-                <div className="col-md-8">
-                    <div className="card">
-                        <div className="card-header">ROot Component 2</div>
-
-                        <div className="card-body">I'm an Root component!</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <Aux>
+            <NavBar />
+             <Body />
+            <Footer />
+        </Aux>   
     );
 }
 
