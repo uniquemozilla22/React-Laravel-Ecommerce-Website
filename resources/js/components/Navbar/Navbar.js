@@ -70,13 +70,13 @@ class Navbar extends Component {
                     <div class="main-menu">
                         <nav>
                             <ul>
-                                <li><a href="index.html">Home <i class="fa fa-angle-down"></i></a>
+                                <li><a href="index.html">Home</a>
                                 </li>
-                                <li><a href="index.html">Shop <i class="fa fa-angle-down"></i></a>
+                                <li><a href="index.html">Shop</a>
                                 </li>
-                                <li><a href="index.html">Products <i class="fa fa-angle-down"></i></a>
+                                <li><a href="index.html">Products</a>
                                 </li>
-                                <li><a href="index.html">Contact <i class="fa fa-angle-down"></i></a>
+                                <li><a href="index.html">Contact</a>
                                 </li>
                                 
                             </ul>
