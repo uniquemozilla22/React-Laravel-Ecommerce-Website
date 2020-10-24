@@ -7,44 +7,6 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-/*-----------------------------------------------------------------------------------
-
-    Template Name: Flone - Minimalist eCommerce Bootstrap 4 Template
-    Version: 1
-
------------------------------------------------------------------------------------
-    
-    CSS INDEX
-    ===================
-	
-    1. Template default CSS
-    2. Header style
-    3. Slider style
-    4. Support style
-    5. Section title style
-    6. Product style
-    7. Blog style
-    8. Footer style
-    9. Banner style
-    10. Suscribe style
-    11. About style
-    12. instagram style
-    13. Testimonial style
-    14. Brand logo style
-    15. Timer style
-    16. Breadcrumb style
-    17. Sidebar style
-    18. Shop page
-    19. Product details page
-    20. Cart page
-    21. Checkout page
-    22. contact Page
-    23. Blog Details Page
-    24. login register Page
-    25. My account Page
-    
------------------------------------------------------------------------------------*/
-/*----------------------------------------*/
 /*  1. Template default CSS
 /*----------------------------------------*/
 /*-- Google Font --*/
@@ -1062,23 +1024,19 @@ a:hover {
 -----------------------------------------*/
 input:-moz-placeholder,
 textarea:-moz-placeholder {
-  opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
+  opacity: 1;}
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
+  opacity: 1; }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-  opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
+  opacity: 1; }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
+  opacity: 1;}
 
 input {
   background: #eceff8;
@@ -1822,6 +1780,7 @@ a.default-btn {
       color: #000;
       font-size: 24px;
       position: relative; }
+
       .header-right-wrap .same-style.cart-wrap button span.count-style {
         position: absolute;
         top: -9px;
@@ -1859,6 +1818,14 @@ a.default-btn {
       -webkit-transition: all 0.5s ease 0s;
       -o-transition: all 0.5s ease 0s;
       transition: all 0.5s ease 0s; }
+      .header-right-wrap .same-style.cart-wrap:hover .shopping-cart-content{
+        
+          opacity: 1;
+          visibility: visible;
+          -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg); 
+      }
+
       .header-right-wrap .same-style.cart-wrap .shopping-cart-content.cart-visible {
         opacity: 1;
         visibility: visible;

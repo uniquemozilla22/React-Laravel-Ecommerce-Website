@@ -8,8 +8,15 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-    <link rel="stylesheet" href="{{asset('css/app.css')}}" /> 
+        
+        <!-- Icon Font CSS -->
+        <link rel="stylesheet" href="assets/css/icons.min.css">
+        <!-- Plugins CSS -->
+        <link rel="stylesheet" href="assets/css/plugins.css">
+        <!-- Main Style CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <link rel="stylesheet" href="{{asset('css/app.css')}}" /> 
     </head>
     <body>
         <div id="root"></div>
