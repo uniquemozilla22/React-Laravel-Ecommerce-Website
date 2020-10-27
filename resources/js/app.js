@@ -13,4 +13,5 @@ require('./bootstrap');
  */
 
 require('./root.js');
-require('./custom')
+require('./mean');
+require('./custom');

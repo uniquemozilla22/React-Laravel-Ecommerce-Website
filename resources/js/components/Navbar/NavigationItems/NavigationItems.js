@@ -1,9 +1,20 @@
 import React from 'react'
+import NavigationList from './NavigationList'
 
-const NavigationItems = () => {
+const NavigationItems = (props) => {
+
+    let displayitems=[];
+
+
+    Object.keys(props.items).map((key, index)=> {
+
+        displayitems[index]=<NavigationList key ={key} mega={props.items[key].extended}>{props.items[key].title}</NavigationList>
+      });
+
+    
     return (
         <div>
-            okay
+            {displayitems}
         </div>
     )
 }
