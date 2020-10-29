@@ -12,7 +12,7 @@ const NavigationList = (props) => {
     if(props.mega){
        display= <li key ={props.key}><Link  to={props.to}>{props.children}<i className="fa fa-angle-down"></i></Link>
       <ul className="submenu">
-          <li><a href="#">Home</a></li>
+          <li><Link to={props.to}>Home</Link></li>
       </ul>
        </li>
     }

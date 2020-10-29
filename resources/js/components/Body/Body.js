@@ -1,15 +1,19 @@
 import React from 'react'
-import { Route, Switch } from 'react-router'
+import { Route, Router, Switch } from 'react-router'
 import HOC from '../HOC/HOC'
 import Slider from './Slider/Slider'
 import Shop from './Shop/shop.js'
+import Products from './Products/Products'
+import Contact from './Contact/Contact'
 
 const Body = () => {
     return (
         <HOC>
             <Switch>
-            <Route component={Slider} path="/" exact/>
-            <Route component={()=><h1>This is the shop component</h1>} path="/shop"/>
+            <Route component={Slider} path='/' exact/>
+            <Route component={Shop} path='/shop'/>
+            <Route component={Products} path='/products' />
+            <Route component ={Contact} path='/contact' />
             </Switch>
         </HOC>
     )

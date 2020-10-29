@@ -4501,7 +4501,8 @@ a.default-btn {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 60px;
   padding: 45px 45px 7px;
-  display: none; }
+  display: block;
+   }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .product-filter-wrapper {
       padding: 35px 25px 7px; } }
