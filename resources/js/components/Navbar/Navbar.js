@@ -49,19 +49,23 @@ class Navbar extends Component {
         let navigations={
             '0':{
                 title:'Home',
-                extended:false
+                extended:false,
+                to:"/"
             },
             '1':{
                 title:'Shop',
-                extended:false
+                extended:false,
+                to:"/shop"
             },
             '2':{
                 title:'Products',
                 extended:true,
+                to:"/products"
             },
             '3':{
                 title:'Contact',
-                extended:false
+                extended:false,
+                to:"/contact"
             },
             
         }

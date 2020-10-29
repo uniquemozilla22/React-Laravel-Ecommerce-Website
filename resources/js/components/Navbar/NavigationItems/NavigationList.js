@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import HOC from '../../HOC/HOC'
 
 const NavigationList = (props) => {
@@ -9,12 +10,14 @@ const NavigationList = (props) => {
 
 
     if(props.mega){
-       display= <li><a key ={props.key} href="#">{props.children}<i className="fa fa-angle-down"></i></a>
-      
+       display= <li key ={props.key}><Link  to={props.to}>{props.children}<i className="fa fa-angle-down"></i></Link>
+      <ul className="submenu">
+          <li><a href="#">Home</a></li>
+      </ul>
        </li>
     }
     else{
-        display=<li key ={props.key}>{props.children}</li>
+        display=<li key ={props.key}><Link to={props.to}>{props.children}</Link></li>
     }
 
     return (

@@ -1,10 +1,12 @@
 import React from 'react'
+import HOC from '../HOC/HOC'
+import Contents from './Contents/Contents'
 
 const Footer = () => {
     return (
-        <div>
-            <p>This is the footer page</p>
-        </div>
+        <HOC>
+            <Contents/>
+        </HOC>
     )
 }
 
