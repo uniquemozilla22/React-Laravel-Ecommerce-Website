@@ -10,10 +10,12 @@ const Body = () => {
     return (
         <HOC>
             <Switch>
-            <Route component={Slider} path='/' exact/>
-            <Route component={Shop} path='/shop'/>
-            <Route component={Products} path='/products' />
-            <Route component ={Contact} path='/contact' />
+                <Route component={Slider} path='/' exact/>
+                <Route component={Shop} path='/shop'/>
+                <Route component={Products} path='/products'/>
+                <Route component ={Contact} path='/contact'/>
+                <Route component ={Contact} path='/login'/>
+                <Route component ={Contact} path='/register'/>
             </Switch>
         </HOC>
     )

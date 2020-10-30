@@ -7,7 +7,7 @@ const Mobile = (props) => {
 
     Object.keys(props.items).map((key, index)=> {
 
-        displayitems[index]=<NavigationList key ={key} mega={props.items[key].extended}>{props.items[key].title}</NavigationList>
+        displayitems[index]=<NavigationList tos={props.items[key].to} key ={key} mega={props.items[key].extended}>{props.items[key].title}</NavigationList>
       });
 
 

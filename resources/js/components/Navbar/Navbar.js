@@ -1,5 +1,7 @@
 
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
+import HOC from '../HOC/HOC';
 import Mobile from './Mobile/Mobile';
 import NavigationItems from './NavigationItems/NavigationItems';
 
@@ -72,7 +74,7 @@ class Navbar extends Component {
             
 
         return (
-            <div>
+            <HOC>
                 <header className="header-area header-padding-1 sticky-bar header-res-padding clearfix">
         <div className="container-fluid">
             <div className="row">
@@ -107,15 +109,16 @@ class Navbar extends Component {
                             <a className="account-satting-active" href="#"><i className="pe-7s-user-female"></i></a>
                             <div className="account-dropdown">
                                 <ul>
-                                    <li><a href="login-register.html">Login</a></li>
-                                    <li><a href="login-register.html">Register</a></li>
-                                    <li><a href="wishlist.html">Wishlist  </a></li>
-                                    <li><a href="my-account.html">my account</a></li>
+                                    
+                                <li><Link to='/login'>Login</Link></li>
+                                <li><Link to='/register'>Register</Link></li>
+                                <li><Link to='/wishlist'>Wishlist</Link></li>
+                                <li><Link to='/account'>My Account</Link></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="same-style header-wishlist">
-                            <a href="wishlist.html"><i className="pe-7s-like"></i></a>
+                        <Link to='/wishlist'><i className="pe-7s-like"></i></Link>
                         </div>
                         <div className="same-style cart-wrap">
                             <button className="icon-cart" >
@@ -130,7 +133,7 @@ class Navbar extends Component {
                 <Mobile items={navigations}/>
             </div>
     </header>
-            </div>
+            </HOC>
         )
     }
 }

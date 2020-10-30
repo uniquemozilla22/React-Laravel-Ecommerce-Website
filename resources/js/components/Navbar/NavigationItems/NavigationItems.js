@@ -8,7 +8,7 @@ const NavigationItems = (props) => {
 
     Object.keys(props.items).map((key, index)=> {
 
-        displayitems[index]=<NavigationList key ={key} mega={props.items[key].extended} to={props.items[key].to}>{props.items[key].title}</NavigationList>
+        displayitems[index]=<NavigationList key ={key} mega={props.items[key].extended} tos={props.items[key].to}>{props.items[key].title}</NavigationList>
       });
 
     
