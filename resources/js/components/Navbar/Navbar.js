@@ -43,8 +43,8 @@ class Navbar extends Component {
             <h4>Total : <span className="shop-total">$260.00</span></h4>
         </div>
         <div className="shopping-cart-btn btn-hover text-center">
-            <a className="default-btn" href="cart-page.html">view cart</a>
-            <a className="default-btn" href="checkout.html">checkout</a>
+            <Link  className ="default-btn" to="/cart">view cart</Link>
+            <Link className= "default-btn" to="/cart">Checkout</Link>
         </div>
         </div>; 
         

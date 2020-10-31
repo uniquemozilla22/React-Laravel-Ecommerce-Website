@@ -5,6 +5,9 @@ import Slider from './Slider/Slider'
 import Shop from './Shop/shop.js'
 import Products from './Products/Products'
 import Contact from './Contact/Contact'
+import Login from './Login/Login'
+import Cart from './Cart/Cart'
+import Wishlist from './Wishlist/Wishlist'
 
 const Body = () => {
     return (
@@ -14,8 +17,9 @@ const Body = () => {
                 <Route component={Shop} path='/shop'/>
                 <Route component={Products} path='/products'/>
                 <Route component ={Contact} path='/contact'/>
-                <Route component ={Contact} path='/login'/>
-                <Route component ={Contact} path='/register'/>
+                <Route component ={Login} path='/login'/>
+                <Route component={Cart} path='/cart'/>
+                <Route component={Wishlist} path='/wishlist'/>
             </Switch>
         </HOC>
     )

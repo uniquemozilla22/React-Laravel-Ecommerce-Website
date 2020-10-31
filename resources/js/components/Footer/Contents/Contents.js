@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Contents = (props) => {
     return (
@@ -8,8 +9,10 @@ const Contents = (props) => {
             <div className="col-lg-2 col-md-4 col-sm-4">
                 <div className="copyright mb-30">
                     <div className="footer-logo">
+                        <Link to="/">
+                        <img alt="" src="assets/img/logo/logo.png"/>
+                        </Link>
                         <a href="index.html">
-                            <img alt="" src="assets/img/logo/logo.png"/>
                         </a>
                     </div>
                     <p>© 2020 <a href="#">Design By Yogesh</a>.<br/> All Rights Reserved</p>
@@ -22,9 +25,9 @@ const Contents = (props) => {
                     </div>
                     <div className="footer-list">
                         <ul>
-                            <li><a href="about.html">About us</a></li>
-                            <li><a href="#">Store location</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="">About us</a></li>
+                            <li><Link to="/contact">Contact Us</Link></li>
+                            <li><Link to="/contact">Know Location</Link></li>
                             <li><a href="#">Orders tracking</a></li>
                         </ul>
                     </div>
