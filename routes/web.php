@@ -1,5 +1,6 @@
 <?php
 
+use App\Product;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
+Route::get('products_table',function(){
+    return Product::all();
+});
 Route::view('/{path?}','welcome');
+
