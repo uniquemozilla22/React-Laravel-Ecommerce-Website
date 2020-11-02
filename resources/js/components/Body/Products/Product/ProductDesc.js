@@ -1,7 +1,7 @@
 import React from 'react'
 import HOC from '../../../HOC/HOC'
 
-const ProductDesc = () => {
+const ProductDesc = (props) => {
     return (
         <HOC>
             
@@ -20,10 +20,9 @@ const ProductDesc = () => {
                                     </div>
                                     <div className="col-xl-8 col-lg-7 col-md-7 col-sm-6">
                                         <div className="shop-list-content">
-                                            <h3><a href="#">Products Name Here</a></h3>
+                                            <h3><a href="#">{props.name}</a></h3>
                                             <div className="product-list-price">
-                                                <span>$ 60.00</span>
-                                                <span className="old">$ 90.00</span>
+                                                <span>${props.price}</span>
                                             </div>
                                             <div className="rating-review">
                                                 <div className="product-list-rating">
@@ -33,9 +32,9 @@ const ProductDesc = () => {
                                                     <i className="fa fa-star-o"></i>
                                                     <i className="fa fa-star-o"></i>
                                                 </div>
-                                                <a href="#">3 Reviews</a>
+                                                <a href="#">{props.review} Reviews</a>
                                             </div>
-                                            <p>Lorem ipsum dolor sit amet, consecteto adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua Ut enim ad minim </p>
+                                            <p>{props.desc}</p>
                                             <div className="shop-list-btn btn-hover">
                                                 <a href="#">ADD TO CART</a>
                                             </div>

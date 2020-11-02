@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('products_table',function(){
+Route::get('23423423423426567',function(){
     return Product::all();
 });
 Route::view('/{path?}','welcome');
