@@ -1,5 +1,6 @@
 <?php
 
+use App\shop;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -21,8 +22,8 @@ class CreateProductsTable extends Migration
             $table->string('product_image');            
             $table->integer('product_review');
             $table->string('product_keyword');
-            $table->integer('shop_id');
-            $table->foreign('shop_id')->references('id')->on('shop');
+            $table->integer('shop_id')->unsigned()->references('id')->on('shop');
+            
             $table->timestamps();
         });
     }

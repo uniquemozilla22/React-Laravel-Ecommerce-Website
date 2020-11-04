@@ -4,11 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class shop extends Model
+class shops extends Model
 {
-    //
-     //
-     protected $table ='shop';
+     protected $table ='shops';
 
      public $primarykey='id';
  

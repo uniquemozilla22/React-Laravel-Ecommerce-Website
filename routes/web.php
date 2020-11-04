@@ -1,6 +1,8 @@
 <?php
 
-use App\Product;
+use App\Products;
+use App\shops;
+use App\Slider;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,7 +17,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('23423423423426567',function(){
-    return Product::all();
+    return Products::all();
+});
+
+Route::get('23423423423426568',function(){
+    return shops::all();
+});
+
+Route::get('23423423423426569',function(){
+    return Slider::all();
 });
 Route::view('/{path?}','welcome');
 

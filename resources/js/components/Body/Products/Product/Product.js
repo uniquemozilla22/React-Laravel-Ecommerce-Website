@@ -21,13 +21,15 @@ const Product = (props) => {
                                             </a>
                                             <span className="pink">-10%</span>
                                             <div className="product-action">
-                                                
-                                                <div className="pro-same-action pro-cart">
-                                                    <a title="Add To Cart" href="#"><i className="pe-7s-cart"></i> Add to cart</a>
-                                                </div>
-                                                <div className="pro-same-action pro-quickview">
-                                                <a title="Wishlist" href="#"><i className="pe-7s-like"></i></a>
-                                                </div>
+                                            <div class="pro-same-action pro-wishlist">
+                                            <a title="Wishlist" href="#"><i class="pe-7s-like"></i></a>
+                                        </div>
+                                        <div class="pro-same-action pro-cart">
+                                            <a title="Add To Cart" href="#"><i class="pe-7s-cart"></i> Add to cart</a>
+                                        </div>
+                                        <div class="pro-same-action pro-quickview">
+                                            <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="pe-7s-look"></i></a>
+                                        </div>
                                             </div>
                                         </div>
                                         <div className="product-content text-center">

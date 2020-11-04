@@ -3,6 +3,7 @@ import HOC from '../../HOC/HOC'
 import Product from './Product/Product'
 import ProductDesc from './Product/ProductDesc'
 import Axios from 'axios'
+import Modal from '../../Modal/Modal'
 
 export default class Products extends Component {
     
@@ -215,6 +216,7 @@ export default class Products extends Component {
             </div>
         </div>
     </div>
+    <Modal image desc name review/>
             </HOC>
         )
     }

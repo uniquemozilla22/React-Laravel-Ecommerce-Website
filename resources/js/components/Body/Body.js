@@ -8,6 +8,7 @@ import Contact from './Contact/Contact'
 import Login from './Login/Login'
 import Cart from './Cart/Cart'
 import Wishlist from './Wishlist/Wishlist'
+import Modal from '../Modal/Modal'
 
 const Body = () => {
     return (
@@ -21,6 +22,7 @@ const Body = () => {
                 <Route component={Cart} path='/cart'/>
                 <Route component={Wishlist} path='/wishlist'/>
             </Switch>
+
         </HOC>
     )
 }
