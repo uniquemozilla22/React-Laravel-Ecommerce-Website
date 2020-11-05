@@ -17,7 +17,6 @@ const ShipItem = (props) => {
                                             <div class="product-img">
                                                 <a href="#">
                                                     <img class="default-img" src={props.image} alt=""/>
-                                                    <img class="hover-img" src="assets/img/product/pro-5-1.jpg" alt=""/>
                                                 </a>
                                                 <span class="pink">-30%</span>
                                             </div>

@@ -22,6 +22,7 @@ class CreateProductsTable extends Migration
             $table->string('product_image');            
             $table->integer('product_review');
             $table->string('product_keyword');
+            $table->integer('category_id')->unsigned()->references('id')->on('categories');
             $table->integer('shop_id')->unsigned()->references('id')->on('shop');
             
             $table->timestamps();
